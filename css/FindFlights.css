@@ -1,0 +1,62 @@
+/* Find Flights Hero */
+.ff-hero { 
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('../assets/plane.jpeg') no-repeat center/cover; 
+  color: #fff; 
+  padding: 100px 0; 
+  text-align: center; 
+  position: relative;
+  margin-bottom: 50px;
+}
+.ff-hero .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.ff-hero-content { max-width: 900px; margin: 0 auto; }
+.ff-hero-subtitle { color: #8DD3BB; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+.ff-hero-title { font-size: 3rem; font-weight: 800; margin: 10px 0 12px; text-shadow: 0 2px 10px rgba(0,0,0,0.35); }
+.ff-hero-description { font-size: 1.15rem; opacity: 0.95; margin-bottom: 22px; text-shadow: 0 1px 6px rgba(0,0,0,0.3); }
+.ff-hero-actions { display: flex; justify-content: center; }
+
+@media (max-width: 768px) {
+  .ff-hero { padding: 80px 0; margin-bottom: 40px; }
+  .ff-hero-title { font-size: 2.25rem; }
+}
+
+/* Find Flights Section */
+.find-flights { background: var(--light-bg); padding: 80px 0; }
+.find-flights .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.find-flights .section-header { text-align: center; margin-bottom: 30px; }
+.find-flights .section-header .section-title { color: var(--text-color); }
+.find-flights .section-subtitle { color: var(--light-text); }
+
+.find-form { background: #fff; border-radius: 16px; box-shadow: var(--shadow); padding: 24px; display: grid; gap: 16px; }
+
+/* Grid layout */
+.find-form .form-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.find-form .form-actions { display: flex; justify-content: center; }
+
+.form-group { display: flex; flex-direction: column; gap: 8px; }
+.form-label { font-weight: 600; font-size: 0.95rem; color: var(--text-color); }
+.form-input, .form-select, .form-date { padding: 12px 14px; border: 1px solid var(--border-color); border-radius: 10px; font-size: 1rem; outline: none; }
+.form-input:focus, .form-select:focus, .form-date:focus { border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .find-form .form-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 576px) {
+  .find-flights { padding: 60px 0; }
+  .find-form { padding: 16px; }
+  .find-form .form-row { grid-template-columns: 1fr; }
+}
+
+/* Map Section */
+.flights-map { background: #fff; padding: 60px 0; }
+.flights-map .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+#map-view { width: 100%; height: 450px; border-radius: 16px; box-shadow: var(--shadow); }
+
+@media (max-width: 768px) {
+  .flights-map { padding: 50px 0; }
+  #map-view { height: 360px; border-radius: 12px; }
+}
+@media (max-width: 576px) {
+  .flights-map { padding: 45px 0; }
+  #map-view { height: 300px; border-radius: 12px; }
+}

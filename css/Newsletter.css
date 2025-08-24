@@ -1,0 +1,16 @@
+.newsletter { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 80px 0; color: white; }
+.newsletter .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.newsletter-content { text-align: center; max-width: 600px; margin: 0 auto; }
+.newsletter-title { font-size: 2.5rem; font-weight: 700; margin-bottom: 10px; }
+.newsletter-subtitle { font-size: 1.2rem; color: #8DD3BB; font-weight: 600; margin-bottom: 15px; display: block; }
+.newsletter-description { font-size: 1.1rem; line-height: 1.6; margin-bottom: 40px; opacity: 0.9; }
+.newsletter-form { max-width: 500px; margin: 0 auto; }
+.form-group { display: flex; gap: 15px; flex-wrap: wrap; }
+.newsletter-input { flex: 1; min-width: 250px; padding: 15px 20px; border: none; border-radius: 50px; font-size: 1rem; outline: none; background: rgba(255, 255, 255, 0.9); }
+.newsletter-input::placeholder { color: #666; }
+.newsletter-btn { padding: 15px 30px; background: #8dd3bb; color: white; border: none; border-radius: 50px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; min-width: 120px; }
+.newsletter-btn:hover { background: #FF5252; transform: translateY(-2px); }
+@media (max-width: 1024px) { .newsletter { padding: 70px 0; } .newsletter-title { font-size: 2.25rem; } .newsletter-description { font-size: 1rem; margin-bottom: 35px; } }
+@media (max-width: 768px) { .newsletter { padding: 60px 0; } .newsletter-title { font-size: 2rem; } .newsletter-subtitle { font-size: 1.1rem; } .newsletter-description { font-size: 1rem; margin-bottom: 30px; } .form-group { flex-direction: column; gap: 12px; } .newsletter-input { min-width: 100%; padding: 12px 18px; } .newsletter-btn { padding: 12px 25px; min-width: 100%; } }
+@media (max-width: 576px) { .newsletter { padding: 50px 0; } .newsletter-content { max-width: 100%; } .newsletter-title { font-size: 1.75rem; margin-bottom: 8px; } .newsletter-subtitle { font-size: 1rem; margin-bottom: 12px; } .newsletter-description { font-size: 0.95rem; margin-bottom: 25px; } .newsletter-form { max-width: 100%; } .newsletter-input { padding: 10px 16px; font-size: 0.95rem; } .newsletter-btn { padding: 10px 20px; font-size: 0.95rem; } }
+@media (max-width: 375px) { .newsletter { padding: 40px 0; } .newsletter-title { font-size: 1.5rem; } .newsletter-description { font-size: 0.9rem; } }

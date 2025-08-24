@@ -1,0 +1,20 @@
+/* Tour Packages Hero */
+.tp-hero {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('../assets/paristour.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.tp-hero .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.tp-hero-content { max-width: 900px; margin: 0 auto; }
+.tp-hero-subtitle { color: #8DD3BB; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+.tp-hero-title { font-size: 3rem; font-weight: 800; margin: 10px 0 12px; text-shadow: 0 2px 10px rgba(0,0,0,0.35); }
+.tp-hero-description { font-size: 1.15rem; opacity: 0.95; margin-bottom: 22px; text-shadow: 0 1px 6px rgba(0,0,0,0.3); }
+.tp-hero-actions { display: flex; justify-content: center; }
+
+@media (max-width: 768px) {
+  .tp-hero { padding: 80px 0; margin-bottom: 40px; }
+  .tp-hero-title { font-size: 2.25rem; }
+}

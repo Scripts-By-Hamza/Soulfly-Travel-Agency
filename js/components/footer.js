@@ -11,7 +11,7 @@ function initFooter() {
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
-                    <div class="footer-brand"> SoulFly</div>
+                    <div class="footer-brand"><img src="assets/logo.png" alt="Logo" />SoulFly</div>
                     <p class="footer-description">Your trusted travel partner for unforgettable experiences. We provide the best travel services to make your journey comfortable and memorable.</p>
                     <div class="social-links">
                         <a href="https://www.instagram.com/scriptsbyhamza/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>

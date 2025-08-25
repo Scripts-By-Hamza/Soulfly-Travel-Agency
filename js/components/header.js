@@ -6,6 +6,7 @@ function initHeader() {
     const headerHTML = `
         <div class="header-container">
             <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Logo" class="logo-img" />
                 <span>SoulFly</span>
             </a>
             

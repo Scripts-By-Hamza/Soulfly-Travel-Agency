@@ -17,7 +17,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.logo-img{
+  height: 36px;
+  width: auto;
+}
 html {
   scroll-behavior: smooth;
 }
